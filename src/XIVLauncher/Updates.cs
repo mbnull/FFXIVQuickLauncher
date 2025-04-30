@@ -16,7 +16,7 @@ namespace XIVLauncher;
 internal class Updates
 {
     public event Action<bool>? OnUpdateCheckFinished;
-    private const string       UpdateUrl = "https://github.com/AtmoOmen/FFXIVQuickLauncher";
+    private const string       UpdateUrl = "https://github.com/mbnull/FFXIVQuickLauncher";
 
     public static Lease? UpdateLease { get; private set; }
 

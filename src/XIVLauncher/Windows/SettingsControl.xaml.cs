@@ -153,7 +153,7 @@ namespace XIVLauncher.Windows
 
         private void GitHubButton_OnClick(object sender, RoutedEventArgs e)
         {
-            Process.Start(new ProcessStartInfo("https://github.com/AtmoOmen/FFXIVQuickLauncher") { UseShellExecute = true });
+            Process.Start(new ProcessStartInfo("https://github.com/mbnull/FFXIVQuickLauncher") { UseShellExecute = true });
         }
 
         private void BackupToolButton_OnClick(object sender, RoutedEventArgs e)

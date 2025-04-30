@@ -27,6 +27,8 @@ XIVLauncherCN (Soil) 是 最终幻想14 非官方启动器 XIVLauncherCN 的分�
 - [DalamudAssets](https://github.com/AtmoOmen/DalamudAssets): Dalamud 相关资源。修改 `hash.py` 文件, 修改为原始的 Github 链接或使用自己的反代服务。其中, `asset.json` 中各个文件的 hash 会在 push 时由工作流直接更新, `Version` 则需要手动修改 —— 除非是 breaking changes, 否则正常情况下确实不需要更改 `Version`
 - [PluginDistD17](https://github.com/Dalamud-DailyRoutines/PluginDistD17): Dalamud 主库插件分发; 目前没有采用 XLWebService 自动生成的模式, 而是工作流+脚本手动生成。修改 `Make-Pluginmaster.ps1` 文件中的相关地址。需要生成时手动运行一次工作流即可。
 
+目前改用了自己的XL库，主要跟进大佬的本本，也是做个备份其他资源沿用原有库，同时去掉了反代加速。
+
 ## 免责声明
 XIVLauncher 并不符合 Square Enix 的服务条款。 我们已经尽力地确保使用 XIVLauncher 对所有人来说都是安全的，且目前还没有玩家因此被封禁，但我们不能否认它存在的可能性。<br>您可以在[此处](https://goatcorp.github.io/faq/xl_troubleshooting#q-are-xivlauncher-dalamud-and-dalamud-plugins-safe-to-use)查到有关的信息。
 

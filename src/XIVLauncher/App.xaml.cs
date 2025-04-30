@@ -84,7 +84,7 @@ namespace XIVLauncher
             public bool InjectMode { get; set; }
         }
 
-        public const string REPO_URL = "https://github.com/AtmoOmen/FFXIVQuickLauncher";
+        public const string REPO_URL = "https://github.com/mbnull/FFXIVQuickLauncher";
 
         public static ILauncherSettingsV3 Settings;
         public static WindowsSteam Steam;
@@ -107,7 +107,7 @@ namespace XIVLauncher
         public static Brush UaBrush = new LinearGradientBrush(new GradientStopCollection()
         {
             new(Color.FromArgb(0xFF, 0xFF, 0x4D, 0x00), 0.0f), // 暗琥珀色
-            new(Color.FromArgb(0xFF, 0xFF, 0xD7, 0x00), 1.0f), // 亮橙红色
+            new(Color.FromArgb(0xFF, 0x39, 0xC5, 0xBB), 1.0f), // 亮橙红色
         }, 0.7f);
 
         public App()
